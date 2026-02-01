@@ -77,6 +77,12 @@ body {
     font-size: 1.5rem;
 }
 
+.logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -289,6 +295,14 @@ body {
 .user-avatar {
     background: var(--warning);
     color: white;
+}
+
+img.bot-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
 }
 
 .bot-avatar {
